@@ -9,6 +9,7 @@ margin: 0;
     .arif{ color: coral; }
     section{
         display: flex;
+        margin-bottom: 100px;
     }
     .half-weidth{
         width: 50%;
@@ -29,6 +30,11 @@ margin: 0;
         background-image: url(images/top-banner.png);
         background-repeat: no-repeat;
     }
+.milestone{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
     
         
     
