@@ -6,17 +6,26 @@ margin: 0;
     h1{
         font-size: 50px;
     }
-    .arif{ color: coral; }
-    section{
-        display: flex;
-        margin-bottom: 100px;
+    h2{
+        font-size:30px ;
     }
+    h3{
+    color: coral;
+    }
+        .header-color{ color: coral; }
+         .flexible-containner{
+         display: flex;
+            margin-bottom: 100px;
+            background-image: url(images/top-banner.png);
+            background-repeat:no-repeat ;
+        }
     .half-weidth{
         width: 50%;
         padding:2%;
+      
     }
     .half-weidth img{
-        width: 80%;
+        width: 90%;
     }
     .hire-button{
         text-decoration: none;
@@ -26,16 +35,27 @@ margin: 0;
     color: lavender;
     font-weight: 700;
     }
-    .banner{
-        background-image: url(images/top-banner.png);
-        background-repeat: no-repeat;
-    }
 .milestone{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position:right;
+    display: flex;
+    padding: 2%;
 }
-    
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: unset;
+}
+.experience-box{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 5px;
+    border-radius: 25px;
+}
+
         
     
-            
+        
