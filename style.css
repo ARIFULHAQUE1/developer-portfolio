@@ -43,7 +43,7 @@ margin: 0;
     padding: 2%;
 }
 .experience-area{
-    background-image: url(images/exp-bg.png);
+    background-image: url(images/section3-exp.png.jfif);
     background-repeat: no-repeat;
     background-position: unset;
 }
@@ -54,7 +54,24 @@ margin: 0;
     box-shadow: 10px 10px 40px gray;
     padding-left: 5px;
     border-radius: 25px;
+ 
 }
+#experience-border{
+    border-left: 5px solid;
+  border-image: linear-gradient(cyan, rgb(160, 43, 140));
+  border-image-slice: 1;
+}
+#baby-border{
+    border-left: 5px solid;
+   border-image: linear-gradient(rgb(211, 44, 15),rgb(189, 165, 30));
+    border-image-slice: 1;
+}
+footer p{
+    font-family: monospace;
+    font-weight: 700;
+    text-align: center;
+}
+
 
         
     
